@@ -466,10 +466,9 @@ void M_ScanSaves (void)
 	//	char	name[MAX_OSPATH];
 	FILE	*f;
 	int		version;
-	ulong dummy,fsize;
+	unsigned long dummy,fsize;
 	char name[45];
 	char *line;
-	
 
         for (i=0 ; i<MAX_SAVEGAMES ; i++)
 	  {
